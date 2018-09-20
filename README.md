@@ -22,10 +22,6 @@ This plugin is a wrapper around `CFAlertDialog` for Android and `CFAlertViewCont
 tns plugin add nativescript-cfalert-dialog
 ```
 
-## Configuration
-
-no configuration step involved
-
 ## Usage 
 
 NativeScript Core with { TypeScript } (works on Core, Angular and Vue as well)
@@ -56,10 +52,6 @@ cfalertDialog.show(options); // That's about it ;)
 `show(options): void;`
 
 Shows the CFAlert Dialog based on the options provided
-
-`dismiss(animate:boolean): void;`
-
-Dismiss the CFAlert Dialog (animate option effective on iOS only)
 
 ## Options format
 
